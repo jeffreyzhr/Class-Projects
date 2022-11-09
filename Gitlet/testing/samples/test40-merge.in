@@ -1,0 +1,14 @@
+I setup2.inc
+> branch b1
+<<<
++ h.txt wug2.txt
+> add h.txt
+<<<
+> commit "Add h.txt"
+<<<
+> branch b2
+<<<
+> rm f.txt
+<<<
+> commit "remove f.txt"
+<<<

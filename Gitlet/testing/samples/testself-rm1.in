@@ -1,0 +1,24 @@
+> init
+<<<
+E .gitlet
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> commit "Main two files"
+<<<
+E f.txt
+E g.txt
+> rm f.txt
+<<<
+* f.txt
+E g.txt
+> rm g.txt
+<<<
+* f.txt
+* g.txt
+
+
+

@@ -1,0 +1,57 @@
+> init
+<<<
+E .gitlet
+> branch other
+<<<
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> commit "Main two files"
+<<<
+E f.txt
+E g.txt
+> checkout other
+<<<
+* f.txt
+* g.txt
+> checkout master
+<<<
+E f.txt
+E g.txt
+= f.txt wug.txt
+= g.txt notwug.txt
+> checkout other
+<<<
+* f.txt
+* g.txt
+> checkout master
+<<<
+E f.txt
+E g.txt
+= f.txt wug.txt
+= g.txt notwug.txt
+> checkout other
+<<<
+* f.txt
+* g.txt
++ h.txt wug.txt
+> add h.txt
+<<<
+> commit "h file"
+<<<
+* f.txt
+* g.txt
+= h.txt wug.txt
+> checkout master
+<<<
+= f.txt wug.txt
+= g.txt notwug.txt
+* h.txt
+> checkout other
+<<<
+* f.txt
+* g.txt
+= h.txt wug.txt
